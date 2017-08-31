@@ -73,11 +73,13 @@ matt.speed = 10  # Faster
 matt.backward(50)
 matt.left(90)
 matt.forward(50)
-
-
+matt.pen = rg.Pen('blue',40)
+matt.forward(50)
+matt.right(90)
+matt.forward(100)
 ########################################################################
 #
-# TODO: 3.
+# Done: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -109,10 +111,18 @@ matt.forward(50)
 #   As always, test by running the module.
 #
 ########################################################################
-
+mason=rg.SimpleTurtle('turtle')
+mason.pen=rg.Pen('black',20)
+mason.forward(40)
+mason.right(90)
+mason.forward(40)
+mason.right(90)
+mason.forward(40)
+mason.right(90)
+mason.forward(40)
 ########################################################################
 #
-# TODO: 5.
+# Done: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
